@@ -1,0 +1,32 @@
+# Dependency directories
+/node_modules/
+
+# Build output
+/build/
+
+# Logs
+*.log
+
+# Environment variables file
+.env
+
+# Java class and jar files (if your backend also uses Java)
+*.class
+*.jar
+
+# Operating system files
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# IDE-specific files (if applicable)
+.idea/       # IntelliJ IDEA
+.vscode/     # VS Code
+*.sublime-workspace
+*.sublime-project
+
+# NPM and Yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Other files to ignore (if needed)

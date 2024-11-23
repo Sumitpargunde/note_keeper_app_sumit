@@ -1,0 +1,97 @@
+
+/* Overall styles for a clean look */
+.app {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+/* In styles.css */
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    /* Gradient background */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Application Title (h1) Styles */
+h1 {
+    font-family: 'Arial', sans-serif;
+    /* You can choose a different font if desired */
+    font-size: 3rem;
+    font-weight: bold;
+    color: #4caf50;
+    /* A vibrant green color */
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    /* Adding a soft shadow to the text */
+}
+
+/* Button Styles for Add Note */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #4caf50;
+    /* Green background for a fresh look */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+button:hover {
+    background-color: #45a049;
+    /* Slightly darker green on hover */
+    transform: scale(1.05);
+    /* Slightly enlarge the button on hover */
+}
+
+button:active {
+    background-color: #388e3c;
+    /* Even darker green when the button is pressed */
+    transform: scale(1);
+    /* Reset the scale when pressed */
+}
+
+button:focus {
+    outline: none;
+    /* Removes the outline when focused */
+}
+
+/* Additional Enhancements */
+.app {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+    /* A soft background color */
+}
+
+h1 {
+    text-transform: uppercase;
+    /* Makes the application name in uppercase */
+}
+
+button:disabled {
+    background-color: #bdbdbd;
+    /* Gray out the button if disabled */
+    cursor: not-allowed;
+}
+
+

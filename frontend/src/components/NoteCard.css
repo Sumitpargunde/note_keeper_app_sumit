@@ -1,0 +1,80 @@
+/* NoteCard.css */
+.note-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.note-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.note-card.pinned {
+    border-left: 4px solid #ff9f00;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+
+h5 {
+    font-size: 16px;
+    color: #777;
+    margin-top: 5px;
+}
+
+p {
+    font-size: 14px;
+    color: #444;
+    margin-top: 10px;
+}
+
+.note-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    /* Add spacing between buttons */
+    justify-content: space-between;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: 1px solid transparent;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+}
+
+button.edit {
+    background-color: #4caf50;
+    color: white;
+}
+
+button.edit:hover {
+    background-color: #45a049;
+}
+
+button.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+button.delete:hover {
+    background-color: #d32f2f;
+}
